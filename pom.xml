@@ -21,6 +21,11 @@
   <relativePath />
  </parent>
  <dependencies>
+  <dependency>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <scope>provided</scope>
+  </dependency>
  </dependencies>
  <dependencyManagement>
   <dependencies>
@@ -35,6 +40,7 @@
  </dependencyManagement>
  <modules>
   <module>spring-cloud-gateway-introduction</module>
+  <module>spring-cloud-gateway-custom-filter</module>
  </modules>
  <repositories>
   <repository>
